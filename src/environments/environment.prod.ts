@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://siksharthakam.herokuapp.com'
+  apiUrl: 'https://siksharthakamapi.herokuapp.com'
 
 };
