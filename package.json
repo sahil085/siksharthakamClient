@@ -1,6 +1,7 @@
 {
   "name": "demo",
   "version": "0.0.0",
+  "main": "server.js",
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
@@ -8,9 +9,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --aot --prod --output-hashing none"
+    "postinstall": "grunt sass:production && ng build --aot -prod"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^6.0.3",
     "@angular/cli": "^6.0.8",
