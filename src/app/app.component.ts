@@ -29,7 +29,7 @@ export class AppComponent implements OnInit{
 
   ngOnInit() {
     this.userform = this.formBuilder.group({
-      userName: [],
+      username: [],
       password: []
     });
   }

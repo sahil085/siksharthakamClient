@@ -40,7 +40,7 @@ export class UserregistraionComponent implements OnInit {
 
   ngOnInit() {
     this.userform = this.formBuilder.group({
-      userName: [],
+      username: [],
       description: [],
       roundschant: [],
       date : []
